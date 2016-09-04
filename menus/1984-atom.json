@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Enable 1984-atom",
+        "command": "1984-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "1984-atom",
+          "submenu": [
+            {
+              "label": "Enable",
+              "command": "1984-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
